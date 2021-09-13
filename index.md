@@ -9,7 +9,6 @@ Convert an Alarmdecoder AD2USB to use an Ethernet to serial converter
 
 
 
-
 [Link](url) and ![Image](src)
 ```
 
