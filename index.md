@@ -31,7 +31,7 @@ I soldered the 12v posts from the underside of the AD2USB directly to the input 
 
 Then soldered the output of the Mini360 to the FS100P and wired it into my alarm panel.
 
-###FS100P setup
+### FS100P setup
 
 The next step was to get the FS100P to use DHCP.
 This unti comes from the factory configured for 192.168.0.7 so place your computer temporarily on the ip address 192.168.0.22 for example, so you can login to the web interface and change the network settings from static to DHCP.  If your network is already on 192.168.0.x you may have to remove whatever device is on 192.168.0.7 for this to work.
