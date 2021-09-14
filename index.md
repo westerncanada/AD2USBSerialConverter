@@ -13,6 +13,7 @@ On the AD2USB there are two surface mount pads for an interface connector, you c
 These are on the connector labeled "CON3" and are the pads on the uppermost right side when the screw post terminals are pointing down.
 
 I soldered mine and then used capton tape to help prevent the wires from peeling off the pads from the board.
+
 ![Image](images/ad2usbpads.png)
 
 I may convert this to the soldered headers with some ribbon cable in the future.
