@@ -19,7 +19,7 @@ I may convert this to the soldered headers with some ribbon cable in the future.
 
 Sean from Alarmdecoder supplied me with these diagrams and part number of the connector:
 
-**SBH31-NBPB-D05-SP-BK
+***SBH31-NBPB-D05-SP-BK
 
 ![Image](images/diagram1.png)
 
@@ -55,7 +55,7 @@ I changed:
 
 I found that while I was playing with the FS100P without anything attached to serial, that the noise from the floating RX/TX would print out garbage, once it was hooked up correctly, the connection was noise free.
 
-**Note that the device will block more than one connection
+***Note that the device will block more than one connection
 
 This means whatever connects to this unit first "wins" and will lock the connection open. 
 Beware of the home assistant nmap scanner it can block HA from connecting to the serial socket, I suggest excluding the IP of the unit from the nmap (or any other) device scanner.
