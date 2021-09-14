@@ -27,16 +27,20 @@ Wire up the RX on the AD2USB to the TX, and the TX on the AD2USB to the RS on th
 
 ![Image](images/FS100PPins.png)
 
-I soldered the 12v posts from the underside of the AD2USB directly to the input side of the Mini360, setting the variable output to exactly 3.3v.  I tested a wide range of input voltages using my bench supply, from 10v up to 14v and the output remained a solid 3.3v.  Nominal voltage from my alarm panel was 13.8v.
+I soldered the 12v posts from the underside of the AD2USB directly to the input side of the Mini360, setting the variable output to exactly 3.3v.  I tested a wide range of input voltages using my bench supply, from 10v up to 14v and the output remained a solid 3.3v.  
+Nominal voltage from my alarm panel was 13.8v.
 
-Then soldered the output of the Mini360 to the FS100P and wired it into my alarm panel.
+I then soldered the output of the Mini360 to the FS100P and wired it into my alarm panel.
+
+The heartbeat LED was flashing on the AD2USB and I saw the Ethernet Link light come on, so I knew all was well.
 
 ### FS100P setup
 
 The next step was to get the FS100P to use DHCP.
-This unti comes from the factory configured for 192.168.0.7 so place your computer temporarily on the ip address 192.168.0.22 for example, so you can login to the web interface and change the network settings from static to DHCP.  If your network is already on 192.168.0.x you may have to remove whatever device is on 192.168.0.7 for this to work.
 
-Login to the web interface on 192.168.0.7 and click on basic config, then check the "Use DHCP" Box.
+This unit comes from the factory configured for 192.168.0.7 so place your computer temporarily on the ip address 192.168.0.22 for example, so you can login to the web interface and change the network settings from static to DHCP.  If your network is already on 192.168.0.x you may have to remove whatever device is on 192.168.0.7 for this to work or use a cross over cable so you don't create IP conflicts. (Remember to change your IP back when you're done.)
+
+Login to the web interface on 192.168.0.7 with admin/admin - sometimes you have to do this twice - and click on basic config, then check the "Use DHCP" Box or configure your own static IP address.  
 
 While you're there make sure the Socket Type is "TCP Server"
 Remote host should be blank
