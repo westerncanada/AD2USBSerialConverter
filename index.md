@@ -36,10 +36,29 @@ Then soldered the output of the Mini360 to the FS100P and wired it into my alarm
 The next step was to get the FS100P to use DHCP.
 This unti comes from the factory configured for 192.168.0.7 so place your computer temporarily on the ip address 192.168.0.22 for example, so you can login to the web interface and change the network settings from static to DHCP.  If your network is already on 192.168.0.x you may have to remove whatever device is on 192.168.0.7 for this to work.
 
-Login to the web interface on 192.168.0.7 and click on basic config, then check the "DHCP" Box.
+Login to the web interface on 192.168.0.7 and click on basic config, then check the "Use DHCP" Box.
+
+While you're there make sure the Socket Type is "TCP Server"
+Remote host should be blank
+Remote port can be whatever you want, its not used.
+Local port can also be whatever you want, but you'll have to remember what it is for connecting to Home Assistant in my case I used the default 20108
 
 ![Image](images/FS100PNetwork.png)
 
+Click on Advanced settings
+I changed:
+- Verify Connection == No
+- Send Hello Message == None
+- Connections Condition == Connect Socket after power on
+
+![Image](images/FS100PAdvanced.png)
+
+I found that while I was playing with the FS100P without anything attached to serial, that the noise from the floating RX/TX would print out garbage, once it was hooked up correctly, the connectino was noise free.
+
+**Note that the device will block more than one connection
+
+This means whatever connects to this unit first "wins" and will lock the connection open. 
+Beware of the home assistant nmap scanner it can block HA from connecting to the serial socket, I suggest excluding the IP of the unit from the nmap (or any other) device scanner.
 
 [Link](url) and ![Image](src)
 ```
