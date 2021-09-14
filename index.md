@@ -4,8 +4,8 @@ Convert an Alarmdecoder AD2USB to use an Ethernet to serial converter
 
 - Alarm Decoder [AD2USB](https://www.alarmdecoder.com/catalog/product_info.php/products_id/29)
 - [FS100P](https://www.aliexpress.com/item/32963270624.html) Ethernet to Serial converter
-- [Mini360](https://www.aliexpress.com/item/32411154908.html) DC-DC Buck converter to power the FS100P
-- Capton or generic equivalent tape for insulating the buck converter
+- [Mini360](https://www.aliexpress.com/item/32411154908.html) DC-DC Buck converter to power the FS100P (taking 12v from the panel down to 3.3v)
+- Capton or generic equivalent tape for insulating the buck converter and providing strain relief.
 
 ### Wiring
 
