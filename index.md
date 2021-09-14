@@ -53,7 +53,7 @@ I changed:
 
 ![Image](images/FS100PAdvanced.png)
 
-I found that while I was playing with the FS100P without anything attached to serial, that the noise from the floating RX/TX would print out garbage, once it was hooked up correctly, the connectino was noise free.
+I found that while I was playing with the FS100P without anything attached to serial, that the noise from the floating RX/TX would print out garbage, once it was hooked up correctly, the connection was noise free.
 
 **Note that the device will block more than one connection
 
