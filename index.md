@@ -11,7 +11,7 @@ Convert an Alarmdecoder AD2USB to use an Ethernet to serial converter
 - Use a fine tip iron (mine is an 8 watt Weller)
 - Use flux on the pads/holes and when you tin the wire tips
 - Don't use too much heat
-- if you're new to soldering this might not be the project for you - Big Clive has a good [intro to soldering](https://www.youtube.com/watch?v=aIab66EgfHM) 
+- if you're new to soldering this might not be the project for you - Big Clive has a good [intro to soldering](https://www.youtube.com/watch?v=aIab66EgfHM) and [this one as well](https://www.youtube.com/watch?v=zOzXkt_PL28) I suggest watching both, however I cannot suggest that USB iron from the latter video, I bought one and it died 15 minutes into its life.
 
 ### Wiring
 
