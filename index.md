@@ -62,6 +62,4 @@ Beware of the home assistant nmap scanner it can block HA from connecting to the
 
 This document is a work in progress.
 
-[Link](url) and ![Image](src)
-```
 
