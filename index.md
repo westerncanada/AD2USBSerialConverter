@@ -66,4 +66,5 @@ Beware of the home assistant nmap scanner it can block HA from connecting to the
 
 This document is a work in progress.
 
-
+Note that you may ruin your devices if you open them up and make these unauthorized changes, don't expect the manufacturer to warranty your mistakes.
+This is what worked for me, your mileage may vary... 
