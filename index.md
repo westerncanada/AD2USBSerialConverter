@@ -11,8 +11,13 @@ Convert an Alarmdecoder AD2USB to use an Ethernet to serial converter
 
 On the AD2USB there are two surface mount pads for an interface connector, you can purchase these (I couldn't due to covid shortages) or solder directly to the pins that provide RX/TX on the board.  These are on the connector labeled "CON3" and are the pads on the uppermost right side when the screw post terminals are pointing down.
 
+I soldered mine and then used capton tape to help prevent the wires from peeling off the pads from the board.
+![Image](images/ad2usbpads.png)
+
 Sean from Alarmdeocder supplied me with these diagrams of the connector:
+
 ![Image](images/diagram1.png)
+
 
 
 [Link](url) and ![Image](src)
