@@ -7,12 +7,18 @@ Convert an Alarmdecoder AD2USB to use an Ethernet to serial converter
 - [Mini360](https://www.aliexpress.com/item/32411154908.html) DC-DC Buck converter to power the FS100P (taking 12v from the panel down to 3.3v)
 - Capton or generic equivalent tape for insulating the buck converter and providing strain relief.
 
+### Soldering
+- Use a fine tip iron (mine is an 8 watt Weller)
+- Use flux on the pads/holes and when you tin the wire tips
+- Don't use too much heat
+- if you're new to soldering this might not be the project for you - Big Clive has a good [intro to soldering](https://www.youtube.com/watch?v=aIab66EgfHM) 
+
 ### Wiring
 
 On the AD2USB there are two surface mount pads for an interface connector, you can purchase these or solder directly to the pins that provide RX/TX on the board.  
 These are on the connector labeled "CON3" and are the pads on the uppermost right side when the screw post terminals are pointing down.
 
-I soldered mine and then used capton tape to help prevent the wires from peeling off the pads from the board.
+I soldered mine through the holes and then used capton tape to help prevent the wires from peeling off the pads from the board.
 
 ![Image](images/ad2usbpads.png)
 
