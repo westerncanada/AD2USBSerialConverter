@@ -73,6 +73,12 @@ I found that while I was playing with the FS100P without anything attached to se
 This means whatever connects to this unit first "wins" and will lock the connection open. 
 Beware of the home assistant nmap scanner it can block HA from connecting to the serial socket, I suggest excluding the IP of the unit from the nmap (or any other) device scanner.
 
+**One way communication**
+
+I ran into an interesting problem, where I could see the panel read its status, but not interact with it.  Turned out to be a lose yellow wire in the panel. 
+
+
+
 This document is a work in progress.
 
 Note that you may ruin your devices if you open them up and make these unauthorized changes, don't expect the manufacturer to warranty your mistakes.
